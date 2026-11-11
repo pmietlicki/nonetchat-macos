@@ -1,0 +1,493 @@
+{
+  "files": {
+    "apple/APPLE-SAMPLE-LICENSE.txt": {
+      "sha256": "d4750cf7c6bbdca0c73dea5157c03932cb095c0d66ab2745305fb184ba86a936",
+      "sourceSha256": "d4750cf7c6bbdca0c73dea5157c03932cb095c0d66ab2745305fb184ba86a936",
+      "transform": "copy"
+    },
+    "apple/AppleAacInspection.swift": {
+      "sha256": "4648c5c8042d3d1a0ced4d24040858a1e626aac87de78a35958a0059f5ed159b",
+      "sourceSha256": "4648c5c8042d3d1a0ced4d24040858a1e626aac87de78a35958a0059f5ed159b",
+      "transform": "copy"
+    },
+    "apple/AppleFastLanePlugin.swift": {
+      "sha256": "dfe9942a2d558392769bdd72d98bfba00579da50e2706efc83ed25c16f1e139f",
+      "sourceSha256": "dfe9942a2d558392769bdd72d98bfba00579da50e2706efc83ed25c16f1e139f",
+      "transform": "copy"
+    },
+    "apple/AppleLocalMediaPlugin.swift": {
+      "sha256": "94f2c6890918b4ddf450e163c291005aa6c7e67e24d3dac047891a9fa96f9a40",
+      "sourceSha256": "94f2c6890918b4ddf450e163c291005aa6c7e67e24d3dac047891a9fa96f9a40",
+      "transform": "copy"
+    },
+    "apple/AppleReceivedAudioSources.swift": {
+      "sha256": "f16e6bcef3eb49df1e5c90e43230062786fb4cec454a450ece074991efdf4bd5",
+      "sourceSha256": "f16e6bcef3eb49df1e5c90e43230062786fb4cec454a450ece074991efdf4bd5",
+      "transform": "copy"
+    },
+    "apple/AppleRecordingBridge.swift": {
+      "sha256": "da174400a0cb435eecfc19e680d45d9c4092d7fc20da2771b94dddefa468aa4c",
+      "sourceSha256": "da174400a0cb435eecfc19e680d45d9c4092d7fc20da2771b94dddefa468aa4c",
+      "transform": "copy"
+    },
+    "apple/AppleRecordingCapture.swift": {
+      "sha256": "e40041fdf4c1d9955f784a0708ff8be0ef2d39fb0e627789b90dcf22b875004f",
+      "sourceSha256": "e40041fdf4c1d9955f784a0708ff8be0ef2d39fb0e627789b90dcf22b875004f",
+      "transform": "copy"
+    },
+    "apple/AppleRecordingRenderer.swift": {
+      "sha256": "1ea0c4aa86cfe8e12a0fc3ddcd27552a03a8e4743f6e242d2991cf6a0cac1e33",
+      "sourceSha256": "1ea0c4aa86cfe8e12a0fc3ddcd27552a03a8e4743f6e242d2991cf6a0cac1e33",
+      "transform": "copy"
+    },
+    "apple/AppleWebRTCRegistration.swift": {
+      "sha256": "b5b95dd55e130641bb721dd062dacc429465bfe5d020913145a6ce62f85f83fe",
+      "sourceSha256": "b5b95dd55e130641bb721dd062dacc429465bfe5d020913145a6ce62f85f83fe",
+      "transform": "copy"
+    },
+    "apple/ArrivalNotifications.swift": {
+      "sha256": "efaf42d5549776567118431ad744493c75a92e12094c21d18b01c106c7a6a8f3",
+      "sourceSha256": "efaf42d5549776567118431ad744493c75a92e12094c21d18b01c106c7a6a8f3",
+      "transform": "copy"
+    },
+    "apple/IOSLocalMediaPresentation.swift": {
+      "sha256": "1d1eed64a74779c1fb02eb172a775ff3c8e1214f3adfb97111b06ffe5806627a",
+      "sourceSha256": "1d1eed64a74779c1fb02eb172a775ff3c8e1214f3adfb97111b06ffe5806627a",
+      "transform": "copy"
+    },
+    "apple/LocalMediaHost.swift": {
+      "sha256": "ac7c727d4213a802abd0b90cbf6f616932da4a99b6b402a84994b0b2629ca490",
+      "sourceSha256": "ac7c727d4213a802abd0b90cbf6f616932da4a99b6b402a84994b0b2629ca490",
+      "transform": "copy"
+    },
+    "apple/LocalMediaOwnership.swift": {
+      "sha256": "4a4a8565b8fb23fdb2ef2c11629e0afce4dba1dae03ec3abd9d2e0d6fa52692e",
+      "sourceSha256": "4a4a8565b8fb23fdb2ef2c11629e0afce4dba1dae03ec3abd9d2e0d6fa52692e",
+      "transform": "copy"
+    },
+    "apple/MacLocalMediaPresentation.swift": {
+      "sha256": "1a995923266d728aec74a3ad7eaaa9fece8b4e0ae5056a0a831607e7b3d084bf",
+      "sourceSha256": "1a995923266d728aec74a3ad7eaaa9fece8b4e0ae5056a0a831607e7b3d084bf",
+      "transform": "copy"
+    },
+    "apple/NotificationActions.swift": {
+      "sha256": "48628f886c2de79fe0ad07038dd3e769b2d47c3286310aea80ba8e0dab3d7ec5",
+      "sourceSha256": "48628f886c2de79fe0ad07038dd3e769b2d47c3286310aea80ba8e0dab3d7ec5",
+      "transform": "copy"
+    },
+    "apple/ReceivedAudioSources.swift": {
+      "sha256": "82ce42904afaf8f71c70c381cd591c8d9410523feeeff1715fd9d28332de73df",
+      "sourceSha256": "82ce42904afaf8f71c70c381cd591c8d9410523feeeff1715fd9d28332de73df",
+      "transform": "copy"
+    },
+    "apple/RecordingAacWorker.swift": {
+      "sha256": "9c41e2d81a93227a7c7cb7c172370ef194a8818a82eea063600762be1cea810d",
+      "sourceSha256": "9c41e2d81a93227a7c7cb7c172370ef194a8818a82eea063600762be1cea810d",
+      "transform": "copy"
+    },
+    "apple/RecordingBackupPolicy.swift": {
+      "sha256": "6c2100ebdf1790e90819b04f8e72d737f3dd0a450b78fd969aff0021dd665295",
+      "sourceSha256": "6c2100ebdf1790e90819b04f8e72d737f3dd0a450b78fd969aff0021dd665295",
+      "transform": "copy"
+    },
+    "apple/RecordingCaptureOwner.swift": {
+      "sha256": "d425577bf135fb5897bee947003f078c71c2fa9c963d999dcb5e447d64d69164",
+      "sourceSha256": "d425577bf135fb5897bee947003f078c71c2fa9c963d999dcb5e447d64d69164",
+      "transform": "copy"
+    },
+    "apple/RecordingContainer.swift": {
+      "sha256": "fc750d80ef4fd06be113ee9230f04b8c12d5bf48f4a2f786f33cdad0a0909fa9",
+      "sourceSha256": "fc750d80ef4fd06be113ee9230f04b8c12d5bf48f4a2f786f33cdad0a0909fa9",
+      "transform": "copy"
+    },
+    "apple/RecordingOutputFile.swift": {
+      "sha256": "d75aac47877e921475997ee451804f0b43f6c657cea98d355ec8d72b7bf4463d",
+      "sourceSha256": "d75aac47877e921475997ee451804f0b43f6c657cea98d355ec8d72b7bf4463d",
+      "transform": "copy"
+    },
+    "apple/RecordingPcmQueue.swift": {
+      "sha256": "d5d8412c4b40e7d9e0d71d3226a5b39a76084a57cf11a4dd2e0720670f0fe53f",
+      "sourceSha256": "d5d8412c4b40e7d9e0d71d3226a5b39a76084a57cf11a4dd2e0720670f0fe53f",
+      "transform": "copy"
+    },
+    "apple/RegisteredPluginSource.swift": {
+      "sha256": "d6a6060a21b058b8610739c9994fb58d40d82e37b05a7e89dad720e51522c5e9",
+      "sourceSha256": "d6a6060a21b058b8610739c9994fb58d40d82e37b05a7e89dad720e51522c5e9",
+      "transform": "copy"
+    },
+    "macos/.gitignore": {
+      "sha256": "ffec1a0bbd70547186b82ad4e49089bafab2de309b89de97c776d70debb179fa",
+      "sourceSha256": "ffec1a0bbd70547186b82ad4e49089bafab2de309b89de97c776d70debb179fa",
+      "transform": "copy"
+    },
+    "macos/Flutter/Flutter-Debug.xcconfig": {
+      "sha256": "62290ad8e938bf410206d8c7e131262696b58a6df110d39faf3399396ffe61b1",
+      "sourceSha256": "62290ad8e938bf410206d8c7e131262696b58a6df110d39faf3399396ffe61b1",
+      "transform": "copy"
+    },
+    "macos/Flutter/Flutter-Release.xcconfig": {
+      "sha256": "62290ad8e938bf410206d8c7e131262696b58a6df110d39faf3399396ffe61b1",
+      "sourceSha256": "62290ad8e938bf410206d8c7e131262696b58a6df110d39faf3399396ffe61b1",
+      "transform": "copy"
+    },
+    "macos/Flutter/GeneratedPluginRegistrant.swift": {
+      "sha256": "e29df94f1267134a73296587179d34418a213f5d03e9d4e3d9062dce1263f1a3",
+      "sourceSha256": "e29df94f1267134a73296587179d34418a213f5d03e9d4e3d9062dce1263f1a3",
+      "transform": "copy"
+    },
+    "macos/Runner.xcodeproj/project.pbxproj": {
+      "sha256": "39f9a4b60c454ecc0be77924e399119814f42b5b0a5ea9bbbed0eff8d170a223",
+      "sourceSha256": "39f9a4b60c454ecc0be77924e399119814f42b5b0a5ea9bbbed0eff8d170a223",
+      "transform": "copy"
+    },
+    "macos/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist": {
+      "sha256": "dfa0f9bb85b95ccba9c6811adadf8cb407fb5d52088e89db83ebc308ec448542",
+      "sourceSha256": "dfa0f9bb85b95ccba9c6811adadf8cb407fb5d52088e89db83ebc308ec448542",
+      "transform": "copy"
+    },
+    "macos/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme": {
+      "sha256": "f1678f0aa04ec54f6a8e0aafb63eb16d90af828263162257c0cb0a79aa9653f3",
+      "sourceSha256": "f1678f0aa04ec54f6a8e0aafb63eb16d90af828263162257c0cb0a79aa9653f3",
+      "transform": "copy"
+    },
+    "macos/Runner.xcworkspace/contents.xcworkspacedata": {
+      "sha256": "46c3c9702ff7c5584e11c954d943cfb6e07fb26e3fbd072ddbc0f388aa352de1",
+      "sourceSha256": "46c3c9702ff7c5584e11c954d943cfb6e07fb26e3fbd072ddbc0f388aa352de1",
+      "transform": "copy"
+    },
+    "macos/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist": {
+      "sha256": "dfa0f9bb85b95ccba9c6811adadf8cb407fb5d52088e89db83ebc308ec448542",
+      "sourceSha256": "dfa0f9bb85b95ccba9c6811adadf8cb407fb5d52088e89db83ebc308ec448542",
+      "transform": "copy"
+    },
+    "macos/Runner/AppDelegate.swift": {
+      "sha256": "ecbb9cd941286b6c6d2f4cb24c20495a76dc305e5ccc00a5336e31eba1471972",
+      "sourceSha256": "ecbb9cd941286b6c6d2f4cb24c20495a76dc305e5ccc00a5336e31eba1471972",
+      "transform": "copy"
+    },
+    "macos/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json": {
+      "sha256": "2f6d47350f39cde7d3fabf1dc8109e0ed6638d0ca353c20d3f70b0ad43e5c102",
+      "sourceSha256": "2f6d47350f39cde7d3fabf1dc8109e0ed6638d0ca353c20d3f70b0ad43e5c102",
+      "transform": "copy"
+    },
+    "macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_1024.png": {
+      "sha256": "067292835454082e4c601ff3d74ddbe6d803f7d38b25f58fd2e8ef9d311d7d54",
+      "sourceSha256": "067292835454082e4c601ff3d74ddbe6d803f7d38b25f58fd2e8ef9d311d7d54",
+      "transform": "copy"
+    },
+    "macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_128.png": {
+      "sha256": "7c51a0b60508c4ffe27aeee710f0a594f8405cd117cf6fad1d9f49d7912b70f5",
+      "sourceSha256": "7c51a0b60508c4ffe27aeee710f0a594f8405cd117cf6fad1d9f49d7912b70f5",
+      "transform": "copy"
+    },
+    "macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_16.png": {
+      "sha256": "23202c71e9756e2b0fb16499cd30ef4ec54609f6e6ce90f31d9c62fe09fbc749",
+      "sourceSha256": "23202c71e9756e2b0fb16499cd30ef4ec54609f6e6ce90f31d9c62fe09fbc749",
+      "transform": "copy"
+    },
+    "macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_256.png": {
+      "sha256": "6c616f85b24ff735d70b67f88df0875e6865a968abbfeb371687e8f042898aaf",
+      "sourceSha256": "6c616f85b24ff735d70b67f88df0875e6865a968abbfeb371687e8f042898aaf",
+      "transform": "copy"
+    },
+    "macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_32.png": {
+      "sha256": "0245396c19ad303ddb25bd53cffcd23da9d54a8b75c2d5f993dfb7d30d05262f",
+      "sourceSha256": "0245396c19ad303ddb25bd53cffcd23da9d54a8b75c2d5f993dfb7d30d05262f",
+      "transform": "copy"
+    },
+    "macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_512.png": {
+      "sha256": "2640be410e4af4b2c61bab9a6699d15421da4a7ab9fc9c92be4102b252567242",
+      "sourceSha256": "2640be410e4af4b2c61bab9a6699d15421da4a7ab9fc9c92be4102b252567242",
+      "transform": "copy"
+    },
+    "macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_64.png": {
+      "sha256": "7ead1710e16da095c9994cbbcfb4aec8349258eed6bb117f822a51e522753f9c",
+      "sourceSha256": "7ead1710e16da095c9994cbbcfb4aec8349258eed6bb117f822a51e522753f9c",
+      "transform": "copy"
+    },
+    "macos/Runner/Base.lproj/MainMenu.xib": {
+      "sha256": "be9e9ef8469d3262370e0f0b855ed163cbf9c8362c59e330b2ffe63b86fa42f4",
+      "sourceSha256": "be9e9ef8469d3262370e0f0b855ed163cbf9c8362c59e330b2ffe63b86fa42f4",
+      "transform": "copy"
+    },
+    "macos/Runner/Configs/AppInfo.xcconfig": {
+      "sha256": "52659aa6305efb5b3afb3971825ffc19ccfc81d78dbeec6eeef2c4c73a3272db",
+      "sourceSha256": "52659aa6305efb5b3afb3971825ffc19ccfc81d78dbeec6eeef2c4c73a3272db",
+      "transform": "copy"
+    },
+    "macos/Runner/Configs/Debug.xcconfig": {
+      "sha256": "8067d533ef6593760baad9a9855a786a7a77470fcc3f0925ec04fe43bc1ac4b0",
+      "sourceSha256": "8067d533ef6593760baad9a9855a786a7a77470fcc3f0925ec04fe43bc1ac4b0",
+      "transform": "copy"
+    },
+    "macos/Runner/Configs/Release.xcconfig": {
+      "sha256": "7a6a4b4d973a23052fa0a0388dd261e32d311d7b66ba1bfc3b914b361808ac61",
+      "sourceSha256": "7a6a4b4d973a23052fa0a0388dd261e32d311d7b66ba1bfc3b914b361808ac61",
+      "transform": "copy"
+    },
+    "macos/Runner/Configs/Warnings.xcconfig": {
+      "sha256": "0e341a392b16ad302d12890aa3dac9257a6c10ece685437604259a85341645a3",
+      "sourceSha256": "0e341a392b16ad302d12890aa3dac9257a6c10ece685437604259a85341645a3",
+      "transform": "copy"
+    },
+    "macos/Runner/DebugProfile.entitlements": {
+      "sha256": "11bc7eca757ab5ed708ffc59f9e8a248332c3b1b54e2988cf45dc2e0ee02207b",
+      "sourceSha256": "11bc7eca757ab5ed708ffc59f9e8a248332c3b1b54e2988cf45dc2e0ee02207b",
+      "transform": "copy"
+    },
+    "macos/Runner/Info.plist": {
+      "sha256": "d80782a0da182188c593ca7d56a4c00ade2cfd1e02031695767bfa56ab2c68b3",
+      "sourceSha256": "d80782a0da182188c593ca7d56a4c00ade2cfd1e02031695767bfa56ab2c68b3",
+      "transform": "copy"
+    },
+    "macos/Runner/MainFlutterWindow.swift": {
+      "sha256": "8adda5738b224e60eae6d7ef6536474e219f463e26f58801ec8f80531f6e9f33",
+      "sourceSha256": "8adda5738b224e60eae6d7ef6536474e219f463e26f58801ec8f80531f6e9f33",
+      "transform": "copy"
+    },
+    "macos/Runner/PrivacyInfo.xcprivacy": {
+      "sha256": "5634b4d561db7d120afa4b747ef655f1aae1a86c0e252958034b9f7e845fdd42",
+      "sourceSha256": "5634b4d561db7d120afa4b747ef655f1aae1a86c0e252958034b9f7e845fdd42",
+      "transform": "copy"
+    },
+    "macos/Runner/Release.entitlements": {
+      "sha256": "ac98cb0a041acf8d9a20ff146f9885580b6450f6d9319da9c5d7431c1c620adb",
+      "sourceSha256": "ac98cb0a041acf8d9a20ff146f9885580b6450f6d9319da9c5d7431c1c620adb",
+      "transform": "copy"
+    },
+    "macos/Runner/ar.lproj/InfoPlist.strings": {
+      "sha256": "90a404432909e5f44a6635c69a00b12a26f62bd2b86517763e6929025b6db6f9",
+      "sourceSha256": "90a404432909e5f44a6635c69a00b12a26f62bd2b86517763e6929025b6db6f9",
+      "transform": "copy"
+    },
+    "macos/Runner/bn.lproj/InfoPlist.strings": {
+      "sha256": "d85993b82d34f26a6f33a129ab8dd7491d07d55d41f2788f0f94ef537166f59f",
+      "sourceSha256": "d85993b82d34f26a6f33a129ab8dd7491d07d55d41f2788f0f94ef537166f59f",
+      "transform": "copy"
+    },
+    "macos/Runner/cs.lproj/InfoPlist.strings": {
+      "sha256": "da2d3e2ec79d4d307d22cec400a0a347d47ff1790b54a23e86a75627118c2aa2",
+      "sourceSha256": "da2d3e2ec79d4d307d22cec400a0a347d47ff1790b54a23e86a75627118c2aa2",
+      "transform": "copy"
+    },
+    "macos/Runner/de.lproj/InfoPlist.strings": {
+      "sha256": "becf455290019f27d02ca699871bc57870ae58a98c70e14c75ab7bc5f250808a",
+      "sourceSha256": "becf455290019f27d02ca699871bc57870ae58a98c70e14c75ab7bc5f250808a",
+      "transform": "copy"
+    },
+    "macos/Runner/el.lproj/InfoPlist.strings": {
+      "sha256": "c1af367acad96c5c7015e0083698605460add11610b988a025558429be206bf2",
+      "sourceSha256": "c1af367acad96c5c7015e0083698605460add11610b988a025558429be206bf2",
+      "transform": "copy"
+    },
+    "macos/Runner/en.lproj/InfoPlist.strings": {
+      "sha256": "54e61d5620440bd3f26bcfdec1b283a8ad0c5af884933b8582557451210051e4",
+      "sourceSha256": "54e61d5620440bd3f26bcfdec1b283a8ad0c5af884933b8582557451210051e4",
+      "transform": "copy"
+    },
+    "macos/Runner/es.lproj/InfoPlist.strings": {
+      "sha256": "5b5d4e3f8a2ed714561ae003db6e8ff6bef081c0b6431edd2ace32e6e677f0e9",
+      "sourceSha256": "5b5d4e3f8a2ed714561ae003db6e8ff6bef081c0b6431edd2ace32e6e677f0e9",
+      "transform": "copy"
+    },
+    "macos/Runner/fa.lproj/InfoPlist.strings": {
+      "sha256": "a9e08e5a7c9a34e0bf4f6fea3060d45ee9f490b62a750e27071a660830b13347",
+      "sourceSha256": "a9e08e5a7c9a34e0bf4f6fea3060d45ee9f490b62a750e27071a660830b13347",
+      "transform": "copy"
+    },
+    "macos/Runner/fi.lproj/InfoPlist.strings": {
+      "sha256": "3ac6cc8d7aa889385073cf7cef5d5b4e583a5095a48c6ded120f36144fa8ded5",
+      "sourceSha256": "3ac6cc8d7aa889385073cf7cef5d5b4e583a5095a48c6ded120f36144fa8ded5",
+      "transform": "copy"
+    },
+    "macos/Runner/fil.lproj/InfoPlist.strings": {
+      "sha256": "0cb8a4de42533e5c25e6fcc3161f4ede4f5d30963c808ce5ff1657f131627eb1",
+      "sourceSha256": "0cb8a4de42533e5c25e6fcc3161f4ede4f5d30963c808ce5ff1657f131627eb1",
+      "transform": "copy"
+    },
+    "macos/Runner/fr.lproj/InfoPlist.strings": {
+      "sha256": "70f437e1d8090f52a354ff107a9f06e7b7924f3ff3944da12b10e3b55f818bb4",
+      "sourceSha256": "70f437e1d8090f52a354ff107a9f06e7b7924f3ff3944da12b10e3b55f818bb4",
+      "transform": "copy"
+    },
+    "macos/Runner/he.lproj/InfoPlist.strings": {
+      "sha256": "925978c97ea7420a9500b1103025ca92ac74f484905eaf38b3e866978e682186",
+      "sourceSha256": "925978c97ea7420a9500b1103025ca92ac74f484905eaf38b3e866978e682186",
+      "transform": "copy"
+    },
+    "macos/Runner/hi.lproj/InfoPlist.strings": {
+      "sha256": "d6d6e0e6b2b274c845498dbfeb515224d787781bb6875e2bb9993aaa8a3740a0",
+      "sourceSha256": "d6d6e0e6b2b274c845498dbfeb515224d787781bb6875e2bb9993aaa8a3740a0",
+      "transform": "copy"
+    },
+    "macos/Runner/hu.lproj/InfoPlist.strings": {
+      "sha256": "2559b359d2e9393b53adbb7130c40d74baced07274438642465d7d55e299793a",
+      "sourceSha256": "2559b359d2e9393b53adbb7130c40d74baced07274438642465d7d55e299793a",
+      "transform": "copy"
+    },
+    "macos/Runner/id.lproj/InfoPlist.strings": {
+      "sha256": "048f2885a9fc89931f2d11047ee5e7e8849a961bb07f383f2fb45ea0d9d716d9",
+      "sourceSha256": "048f2885a9fc89931f2d11047ee5e7e8849a961bb07f383f2fb45ea0d9d716d9",
+      "transform": "copy"
+    },
+    "macos/Runner/it.lproj/InfoPlist.strings": {
+      "sha256": "7587dd2444f5eca370ab2f5cb12545cd1eecb59dbf5d655ba679f728a00efeac",
+      "sourceSha256": "7587dd2444f5eca370ab2f5cb12545cd1eecb59dbf5d655ba679f728a00efeac",
+      "transform": "copy"
+    },
+    "macos/Runner/ja.lproj/InfoPlist.strings": {
+      "sha256": "8b637572d8507b76a2ae8951ab414ab843f1dff1935f1b68c0bd040eddfab6f1",
+      "sourceSha256": "8b637572d8507b76a2ae8951ab414ab843f1dff1935f1b68c0bd040eddfab6f1",
+      "transform": "copy"
+    },
+    "macos/Runner/ka.lproj/InfoPlist.strings": {
+      "sha256": "249ff643f4cc782ec7b8250323a27c6033b35ac546cf39d6e41bef49347b2eda",
+      "sourceSha256": "249ff643f4cc782ec7b8250323a27c6033b35ac546cf39d6e41bef49347b2eda",
+      "transform": "copy"
+    },
+    "macos/Runner/ko.lproj/InfoPlist.strings": {
+      "sha256": "b89882b343fe19af104ccb899419a80e976a7af240db5f583b874b3854099170",
+      "sourceSha256": "b89882b343fe19af104ccb899419a80e976a7af240db5f583b874b3854099170",
+      "transform": "copy"
+    },
+    "macos/Runner/mg.lproj/InfoPlist.strings": {
+      "sha256": "cee5b5c462f415ca9a0f0f06f3097010c12893d0d6bae6834cb41b9b8a4bbc15",
+      "sourceSha256": "cee5b5c462f415ca9a0f0f06f3097010c12893d0d6bae6834cb41b9b8a4bbc15",
+      "transform": "copy"
+    },
+    "macos/Runner/mr.lproj/InfoPlist.strings": {
+      "sha256": "e4cb2fe40958f30cf709a9c9d7e38baaef2a80fffd185c1ee2f9b6fe2f9d9d50",
+      "sourceSha256": "e4cb2fe40958f30cf709a9c9d7e38baaef2a80fffd185c1ee2f9b6fe2f9d9d50",
+      "transform": "copy"
+    },
+    "macos/Runner/ms.lproj/InfoPlist.strings": {
+      "sha256": "16d926373b13fc0fbde26bb79fe7f792065143589a16685fad876155b05d8a2d",
+      "sourceSha256": "16d926373b13fc0fbde26bb79fe7f792065143589a16685fad876155b05d8a2d",
+      "transform": "copy"
+    },
+    "macos/Runner/my.lproj/InfoPlist.strings": {
+      "sha256": "194ee933b885e25d34b49c74982b7e7ee70cb47d92517728a6eac672c52e4101",
+      "sourceSha256": "194ee933b885e25d34b49c74982b7e7ee70cb47d92517728a6eac672c52e4101",
+      "transform": "copy"
+    },
+    "macos/Runner/nb.lproj/InfoPlist.strings": {
+      "sha256": "3e99f7565000418c1e34006d7d0a56c6c7fab6a8467fa33b0ffd7e64024cf3d9",
+      "sourceSha256": "3e99f7565000418c1e34006d7d0a56c6c7fab6a8467fa33b0ffd7e64024cf3d9",
+      "transform": "copy"
+    },
+    "macos/Runner/ne.lproj/InfoPlist.strings": {
+      "sha256": "208a1f0f72ab5f43f55ae77c4dcd9c8d960e12e392c4128a6ea1c2b08914ebe9",
+      "sourceSha256": "208a1f0f72ab5f43f55ae77c4dcd9c8d960e12e392c4128a6ea1c2b08914ebe9",
+      "transform": "copy"
+    },
+    "macos/Runner/nl.lproj/InfoPlist.strings": {
+      "sha256": "24dd38a0c90d0ebfc71fb091ae5668172edd3ada348b9d291482389139f26f7f",
+      "sourceSha256": "24dd38a0c90d0ebfc71fb091ae5668172edd3ada348b9d291482389139f26f7f",
+      "transform": "copy"
+    },
+    "macos/Runner/pa-Arab.lproj/InfoPlist.strings": {
+      "sha256": "37d55d1009042da63a87c40bd80c1a5b95c913f6c4dc7d3661a4523ec2d35554",
+      "sourceSha256": "37d55d1009042da63a87c40bd80c1a5b95c913f6c4dc7d3661a4523ec2d35554",
+      "transform": "copy"
+    },
+    "macos/Runner/pa.lproj/InfoPlist.strings": {
+      "sha256": "38cbf4132a0a049a6c2a489c4a0f99ba18cb2356e244e45eaeae1e62ab01e984",
+      "sourceSha256": "38cbf4132a0a049a6c2a489c4a0f99ba18cb2356e244e45eaeae1e62ab01e984",
+      "transform": "copy"
+    },
+    "macos/Runner/pl.lproj/InfoPlist.strings": {
+      "sha256": "800798390f6dd95bdf7aa77a6eeef12ce31ab04dd2466bbe43a74200bff1eb71",
+      "sourceSha256": "800798390f6dd95bdf7aa77a6eeef12ce31ab04dd2466bbe43a74200bff1eb71",
+      "transform": "copy"
+    },
+    "macos/Runner/pt-BR.lproj/InfoPlist.strings": {
+      "sha256": "6df39f9ffe4f2974e27b2e2f044f346dcb481f673e7f98e21517e63fe0d12450",
+      "sourceSha256": "6df39f9ffe4f2974e27b2e2f044f346dcb481f673e7f98e21517e63fe0d12450",
+      "transform": "copy"
+    },
+    "macos/Runner/pt.lproj/InfoPlist.strings": {
+      "sha256": "d0db06e7ba81dce2191febb6cf93a5c2605b3ec8310d20f2e357c04a0ccc7645",
+      "sourceSha256": "d0db06e7ba81dce2191febb6cf93a5c2605b3ec8310d20f2e357c04a0ccc7645",
+      "transform": "copy"
+    },
+    "macos/Runner/ro.lproj/InfoPlist.strings": {
+      "sha256": "de6e7bb3c869c31dbc6c7ca33b29d027b4a10ab98ace7711e21ddf056af49983",
+      "sourceSha256": "de6e7bb3c869c31dbc6c7ca33b29d027b4a10ab98ace7711e21ddf056af49983",
+      "transform": "copy"
+    },
+    "macos/Runner/ru.lproj/InfoPlist.strings": {
+      "sha256": "7f88f4411a940f0ce403c069e4053346faf19c3a8c77620dd76f51aaf5d08ff9",
+      "sourceSha256": "7f88f4411a940f0ce403c069e4053346faf19c3a8c77620dd76f51aaf5d08ff9",
+      "transform": "copy"
+    },
+    "macos/Runner/sv.lproj/InfoPlist.strings": {
+      "sha256": "e2e2bb1755a30ba9622e98e2a2cde01ba8b2f3a932330f8875996c3b3f687622",
+      "sourceSha256": "e2e2bb1755a30ba9622e98e2a2cde01ba8b2f3a932330f8875996c3b3f687622",
+      "transform": "copy"
+    },
+    "macos/Runner/sw.lproj/InfoPlist.strings": {
+      "sha256": "612d1b29b7ebce86f1d4773c67675290cef37833e56e27edd9be51e1fe0e5d05",
+      "sourceSha256": "612d1b29b7ebce86f1d4773c67675290cef37833e56e27edd9be51e1fe0e5d05",
+      "transform": "copy"
+    },
+    "macos/Runner/ta.lproj/InfoPlist.strings": {
+      "sha256": "8d90e44cfe9fa94b8f7449171a39ab965badfe18d92806dc7f7ed66d95b76f66",
+      "sourceSha256": "8d90e44cfe9fa94b8f7449171a39ab965badfe18d92806dc7f7ed66d95b76f66",
+      "transform": "copy"
+    },
+    "macos/Runner/te.lproj/InfoPlist.strings": {
+      "sha256": "4aa6f219448ab52442e9533fc9edffb6e2b7eae8debdb8cd06684827e3624be2",
+      "sourceSha256": "4aa6f219448ab52442e9533fc9edffb6e2b7eae8debdb8cd06684827e3624be2",
+      "transform": "copy"
+    },
+    "macos/Runner/th.lproj/InfoPlist.strings": {
+      "sha256": "1606091f633f93ff940e2dcb0f645bdd764544f3b224648129e2a411d0fea5b6",
+      "sourceSha256": "1606091f633f93ff940e2dcb0f645bdd764544f3b224648129e2a411d0fea5b6",
+      "transform": "copy"
+    },
+    "macos/Runner/tr.lproj/InfoPlist.strings": {
+      "sha256": "791bae8a20e1874b67b5be46f8cb5af196032a7f75c4c84c55f07a9788b658a7",
+      "sourceSha256": "791bae8a20e1874b67b5be46f8cb5af196032a7f75c4c84c55f07a9788b658a7",
+      "transform": "copy"
+    },
+    "macos/Runner/uk.lproj/InfoPlist.strings": {
+      "sha256": "cc380d63478d0df6269b22a708ef940ea86d406faeb01a88f30c3f29101ea900",
+      "sourceSha256": "cc380d63478d0df6269b22a708ef940ea86d406faeb01a88f30c3f29101ea900",
+      "transform": "copy"
+    },
+    "macos/Runner/ur.lproj/InfoPlist.strings": {
+      "sha256": "71234802e01010e8795ee5256a8493e627ddb254f53abbd135bfecb53fce37f1",
+      "sourceSha256": "71234802e01010e8795ee5256a8493e627ddb254f53abbd135bfecb53fce37f1",
+      "transform": "copy"
+    },
+    "macos/Runner/vi.lproj/InfoPlist.strings": {
+      "sha256": "f54711f2a32592d35ca186d917abfecf69d8f9bd6ee54382a1d87d82d7269a29",
+      "sourceSha256": "f54711f2a32592d35ca186d917abfecf69d8f9bd6ee54382a1d87d82d7269a29",
+      "transform": "copy"
+    },
+    "macos/Runner/zh-Hans.lproj/InfoPlist.strings": {
+      "sha256": "39c82f616a156fe89dab35ce029d413b832b8812371141d2b623ac3af114f35f",
+      "sourceSha256": "39c82f616a156fe89dab35ce029d413b832b8812371141d2b623ac3af114f35f",
+      "transform": "copy"
+    },
+    "macos/Runner/zh-Hant.lproj/InfoPlist.strings": {
+      "sha256": "194a16df1972596eaf9cf92c84ef00de54ffafcaac33dd789b1b7eeaf06d31d3",
+      "sourceSha256": "194a16df1972596eaf9cf92c84ef00de54ffafcaac33dd789b1b7eeaf06d31d3",
+      "transform": "copy"
+    },
+    "macos/Runner/zh.lproj/InfoPlist.strings": {
+      "sha256": "39c82f616a156fe89dab35ce029d413b832b8812371141d2b623ac3af114f35f",
+      "sourceSha256": "39c82f616a156fe89dab35ce029d413b832b8812371141d2b623ac3af114f35f",
+      "transform": "copy"
+    },
+    "macos/RunnerTests/RunnerTests.swift": {
+      "sha256": "6bc180bc77c7def7a21d197233e25dff42cc493ab9d294632edafc18fdf0ac44",
+      "sourceSha256": "6bc180bc77c7def7a21d197233e25dff42cc493ab9d294632edafc18fdf0ac44",
+      "transform": "copy"
+    }
+  },
+  "platform": "macos",
+  "schema": 1,
+  "sourceRevision": "7ac3e00c98bbdd4b877ad5abc1021928a03864b3",
+  "version": "0.3.0"
+}

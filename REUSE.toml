@@ -1,0 +1,595 @@
+version = 1
+
+[[annotations]]
+path = ["apple/APPLE-SAMPLE-LICENSE.txt"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025 Apple Inc."]
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = ["apple/AppleAacInspection.swift"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["apple/AppleFastLanePlugin.swift"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["apple/AppleLocalMediaPlugin.swift"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["apple/AppleReceivedAudioSources.swift"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["apple/AppleRecordingBridge.swift"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["apple/AppleRecordingCapture.swift"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["apple/AppleRecordingRenderer.swift"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["apple/AppleWebRTCRegistration.swift"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["apple/ArrivalNotifications.swift"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["apple/IOSLocalMediaPresentation.swift"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["apple/LocalMediaHost.swift"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["apple/LocalMediaOwnership.swift"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["apple/MacLocalMediaPresentation.swift"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["apple/NotificationActions.swift"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["apple/ReceivedAudioSources.swift"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["apple/RecordingAacWorker.swift"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["apple/RecordingBackupPolicy.swift"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["apple/RecordingCaptureOwner.swift"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["apple/RecordingContainer.swift"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["apple/RecordingOutputFile.swift"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["apple/RecordingPcmQueue.swift"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["apple/RegisteredPluginSource.swift"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["macos/.gitignore"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2014 The Flutter Authors"]
+SPDX-License-Identifier = "BSD-3-Clause"
+
+[[annotations]]
+path = ["macos/Flutter/Flutter-Debug.xcconfig"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2014 The Flutter Authors"]
+SPDX-License-Identifier = "BSD-3-Clause"
+
+[[annotations]]
+path = ["macos/Flutter/Flutter-Release.xcconfig"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2014 The Flutter Authors"]
+SPDX-License-Identifier = "BSD-3-Clause"
+
+[[annotations]]
+path = ["macos/Flutter/GeneratedPluginRegistrant.swift"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2014 The Flutter Authors"]
+SPDX-License-Identifier = "BSD-3-Clause"
+
+[[annotations]]
+path = ["macos/Runner.xcodeproj/project.pbxproj"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)", "2014 The Flutter Authors"]
+SPDX-License-Identifier = "Apache-2.0 AND BSD-3-Clause"
+
+[[annotations]]
+path = ["macos/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2014 The Flutter Authors"]
+SPDX-License-Identifier = "BSD-3-Clause"
+
+[[annotations]]
+path = ["macos/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)", "2014 The Flutter Authors"]
+SPDX-License-Identifier = "Apache-2.0 AND BSD-3-Clause"
+
+[[annotations]]
+path = ["macos/Runner.xcworkspace/contents.xcworkspacedata"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2014 The Flutter Authors"]
+SPDX-License-Identifier = "BSD-3-Clause"
+
+[[annotations]]
+path = ["macos/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2014 The Flutter Authors"]
+SPDX-License-Identifier = "BSD-3-Clause"
+
+[[annotations]]
+path = ["macos/Runner/AppDelegate.swift"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)", "2014 The Flutter Authors"]
+SPDX-License-Identifier = "Apache-2.0 AND BSD-3-Clause"
+
+[[annotations]]
+path = ["macos/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)", "2014 The Flutter Authors"]
+SPDX-License-Identifier = "Apache-2.0 AND BSD-3-Clause"
+
+[[annotations]]
+path = ["macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_1024.png"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_128.png"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_16.png"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_256.png"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_32.png"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_512.png"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_64.png"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["macos/Runner/Base.lproj/MainMenu.xib"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2014 The Flutter Authors"]
+SPDX-License-Identifier = "BSD-3-Clause"
+
+[[annotations]]
+path = ["macos/Runner/Configs/AppInfo.xcconfig"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)", "2014 The Flutter Authors"]
+SPDX-License-Identifier = "Apache-2.0 AND BSD-3-Clause"
+
+[[annotations]]
+path = ["macos/Runner/Configs/Debug.xcconfig"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2014 The Flutter Authors"]
+SPDX-License-Identifier = "BSD-3-Clause"
+
+[[annotations]]
+path = ["macos/Runner/Configs/Release.xcconfig"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2014 The Flutter Authors"]
+SPDX-License-Identifier = "BSD-3-Clause"
+
+[[annotations]]
+path = ["macos/Runner/Configs/Warnings.xcconfig"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2014 The Flutter Authors"]
+SPDX-License-Identifier = "BSD-3-Clause"
+
+[[annotations]]
+path = ["macos/Runner/DebugProfile.entitlements"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)", "2014 The Flutter Authors"]
+SPDX-License-Identifier = "Apache-2.0 AND BSD-3-Clause"
+
+[[annotations]]
+path = ["macos/Runner/Info.plist"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)", "2014 The Flutter Authors"]
+SPDX-License-Identifier = "Apache-2.0 AND BSD-3-Clause"
+
+[[annotations]]
+path = ["macos/Runner/MainFlutterWindow.swift"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)", "2014 The Flutter Authors"]
+SPDX-License-Identifier = "Apache-2.0 AND BSD-3-Clause"
+
+[[annotations]]
+path = ["macos/Runner/PrivacyInfo.xcprivacy"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["macos/Runner/Release.entitlements"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)", "2014 The Flutter Authors"]
+SPDX-License-Identifier = "Apache-2.0 AND BSD-3-Clause"
+
+[[annotations]]
+path = ["macos/Runner/ar.lproj/InfoPlist.strings"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["macos/Runner/bn.lproj/InfoPlist.strings"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["macos/Runner/cs.lproj/InfoPlist.strings"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["macos/Runner/de.lproj/InfoPlist.strings"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["macos/Runner/el.lproj/InfoPlist.strings"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["macos/Runner/en.lproj/InfoPlist.strings"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["macos/Runner/es.lproj/InfoPlist.strings"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["macos/Runner/fa.lproj/InfoPlist.strings"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["macos/Runner/fi.lproj/InfoPlist.strings"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["macos/Runner/fil.lproj/InfoPlist.strings"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["macos/Runner/fr.lproj/InfoPlist.strings"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["macos/Runner/he.lproj/InfoPlist.strings"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["macos/Runner/hi.lproj/InfoPlist.strings"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["macos/Runner/hu.lproj/InfoPlist.strings"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["macos/Runner/id.lproj/InfoPlist.strings"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["macos/Runner/it.lproj/InfoPlist.strings"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["macos/Runner/ja.lproj/InfoPlist.strings"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["macos/Runner/ka.lproj/InfoPlist.strings"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["macos/Runner/ko.lproj/InfoPlist.strings"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["macos/Runner/mg.lproj/InfoPlist.strings"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["macos/Runner/mr.lproj/InfoPlist.strings"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["macos/Runner/ms.lproj/InfoPlist.strings"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["macos/Runner/my.lproj/InfoPlist.strings"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["macos/Runner/nb.lproj/InfoPlist.strings"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["macos/Runner/ne.lproj/InfoPlist.strings"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["macos/Runner/nl.lproj/InfoPlist.strings"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["macos/Runner/pa-Arab.lproj/InfoPlist.strings"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["macos/Runner/pa.lproj/InfoPlist.strings"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["macos/Runner/pl.lproj/InfoPlist.strings"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["macos/Runner/pt-BR.lproj/InfoPlist.strings"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["macos/Runner/pt.lproj/InfoPlist.strings"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["macos/Runner/ro.lproj/InfoPlist.strings"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["macos/Runner/ru.lproj/InfoPlist.strings"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["macos/Runner/sv.lproj/InfoPlist.strings"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["macos/Runner/sw.lproj/InfoPlist.strings"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["macos/Runner/ta.lproj/InfoPlist.strings"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["macos/Runner/te.lproj/InfoPlist.strings"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["macos/Runner/th.lproj/InfoPlist.strings"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["macos/Runner/tr.lproj/InfoPlist.strings"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["macos/Runner/uk.lproj/InfoPlist.strings"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["macos/Runner/ur.lproj/InfoPlist.strings"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["macos/Runner/vi.lproj/InfoPlist.strings"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["macos/Runner/zh-Hans.lproj/InfoPlist.strings"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["macos/Runner/zh-Hant.lproj/InfoPlist.strings"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["macos/Runner/zh.lproj/InfoPlist.strings"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["macos/RunnerTests/RunnerTests.swift"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2014 The Flutter Authors"]
+SPDX-License-Identifier = "BSD-3-Clause"
+
+[[annotations]]
+path = ["README.md", "SECURITY.md", "SOURCE.json"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["NOTICE"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025 Apple Inc.", "2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0 AND MIT"
