@@ -1,4 +1,6 @@
 import Foundation
+import func CoreFoundation.CFGetTypeID
+import func CoreFoundation.CFBooleanGetTypeID
 #if canImport(Darwin)
 import Darwin
 #else
@@ -11,6 +13,10 @@ struct RecordingFileClosed: Equatable, Sendable {
   /// media/container validity before this file can enter playable history.
   let valid: Bool
   let bytes: Int
+  let byteLimit: Bool
+  init(released: Bool, valid: Bool, bytes: Int, byteLimit: Bool = false) {
+    self.released = released; self.valid = valid; self.bytes = bytes; self.byteLimit = byteLimit
+  }
 }
 
 enum RecordingFileContent: Sendable {
@@ -20,11 +26,59 @@ enum RecordingFileContent: Sendable {
 
 enum RecordingFileAccess: Sendable { case output, input }
 
+/// The segmented writer's IO state, independent of its SDK callback adapter.
+/// Initialization and complete media segments form one immutable prefix. A
+/// quota stop may keep that prefix; IO/order failures may never validate it.
+final class RecordingSegmentOutput: @unchecked Sendable {
+  private let lock = NSLock()
+  private let file: RecordingOutputFile
+  private let stop: @Sendable () -> Void
+  private var sealed = false, failed = false, limited = false
+  private var initializations = 0, media = 0
+  init(file: RecordingOutputFile, stop: @escaping @Sendable () -> Void) {
+    self.file = file; self.stop = stop
+  }
+  func append(_ data: Data, initialization: Bool) {
+    var mustStop = false
+    lock.lock(); defer { lock.unlock(); if mustStop { stop() } }
+    guard !sealed, !failed, !limited else { return }
+    guard initialization ? initializations == 0 && media == 0 : initializations == 1 && media < Int.max else {
+      failed = true; mustStop = true; return
+    }
+    guard file.append(data) else {
+      limited = file.byteLimit
+      failed = !limited
+      mustStop = true; return
+    }
+    if initialization { initializations += 1 } else { media += 1 }
+  }
+  func reject() {
+    lock.lock()
+    let notify = !sealed && !failed
+    if !sealed { failed = true }
+    lock.unlock()
+    if notify { stop() }
+  }
+  func seal() -> (valid: Bool, initializations: Int, media: Int) {
+    lock.lock(); defer { lock.unlock() }
+    sealed = true
+    return (!failed && initializations == 1 && media > 0, initializations, media)
+  }
+}
+
 /// Independent of Flutter/WebRTC. Every mutable field and syscall is protected
 /// by lock; injected calls must preserve the same synchronous POSIX semantics.
 /// No SDK sees this descriptor. An uncertain close is never retried: the
 /// descriptor number may already have been reused by another thread.
 final class RecordingOutputFile: @unchecked Sendable {
+  // MonitorRecording.maxAccountBytes / FileTransferLayout.maxNativeBytes.
+  static let maxAccountBytes = 2_000_000_000
+  static func budget(_ value: Any?) -> Int? {
+    guard let number = value as? NSNumber, CFGetTypeID(number) != CFBooleanGetTypeID(),
+          !["f", "d"].contains(String(cString: number.objCType)),
+          let bytes = Int(number.stringValue), bytes > 0, bytes <= maxAccountBytes else { return nil }
+    return bytes
+  }
   struct Calls: Sendable {
     var write: @Sendable (Int32, UnsafeRawPointer, Int) -> Int = { fd, data, count in
       #if canImport(Darwin)
@@ -54,6 +108,7 @@ final class RecordingOutputFile: @unchecked Sendable {
   private let path: String, account: String, id: String
   let content: RecordingFileContent
   private let access: RecordingFileAccess
+  private let maximumBytes: Int?
   private let backup: @Sendable (URL) -> Bool
   private let calls: Calls
   private var pins: [Pin] = []
@@ -64,15 +119,18 @@ final class RecordingOutputFile: @unchecked Sendable {
   private var created = false, count = 0
   private var result: RecordingFileClosed?
   private var readingRetired = false
+  private var limitReached = false
 
   init(support: URL, path: String, accountHash: String, id: String,
        content: RecordingFileContent = .audio,
        access: RecordingFileAccess = .output,
+       maximumBytes: Int? = nil,
        backup: @escaping @Sendable (URL) -> Bool, calls: Calls = Calls()) {
     self.support = support.resolvingSymlinksInPath().standardizedFileURL
     self.path = path; account = accountHash; self.id = id
     self.content = content
     self.access = access
+    self.maximumBytes = maximumBytes
     self.backup = backup; self.calls = calls
   }
 
@@ -82,6 +140,9 @@ final class RecordingOutputFile: @unchecked Sendable {
     lock.lock(); defer { lock.unlock() }
     guard !attempted, !sealed, !(access == .input && readingRetired) else { return false }
     attempted = true
+    guard access == .input || (maximumBytes.map { $0 > 0 && $0 <= Self.maxAccountBytes } ?? false) else {
+      failed = true; return false
+    }
     guard support.isFileURL, Self.valid(account, count: 64, alphabet: "0123456789abcdef"),
           Self.valid(id, count: 24, alphabet: "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_-"),
           !path.contains("\0") else { failed = true; return false }
@@ -137,6 +198,12 @@ final class RecordingOutputFile: @unchecked Sendable {
     guard access == .output, !sealed, !failed, created, let fd = outputFD else { return false }
     guard !data.isEmpty, data.count <= Int.max - count,
           unchanged(), readMarker() == marker else { failed = true; return false }
+    guard !limitReached else { return false }
+    // One complete encoder segment or nothing. No guessed footer allowance,
+    // partial segment, or later smaller segment may extend this prefix.
+    guard let maximumBytes, data.count <= maximumBytes - count else {
+      limitReached = true; return false
+    }
     let written = data.withUnsafeBytes { bytes -> Bool in
       guard let base = bytes.baseAddress else { return false }
       var offset = 0
@@ -177,6 +244,10 @@ final class RecordingOutputFile: @unchecked Sendable {
     lock.lock(); defer { lock.unlock() }; return count
   }
 
+  var byteLimit: Bool {
+    lock.lock(); defer { lock.unlock() }; return limitReached
+  }
+
   func retireReads() {
     lock.lock(); defer { lock.unlock() }; readingRetired = true
   }
@@ -195,7 +266,8 @@ final class RecordingOutputFile: @unchecked Sendable {
     }
     // No later code, including deinit, may touch one of these integer handles.
     pins.removeAll()
-    let done = RecordingFileClosed(released: !uncertain, valid: !uncertain && !failed, bytes: count)
+    let done = RecordingFileClosed(released: !uncertain, valid: !uncertain && !failed,
+      bytes: count, byteLimit: limitReached)
     result = done
     return done
   }

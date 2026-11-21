@@ -4,3 +4,5 @@
 "NSCameraUsageDescription" = "Använd kameran när du väljer att ta ett foto, skanna en kod eller starta videoövervakning.";
 "NSBluetoothAlwaysUsageDescription" = "Tillåt Bluetooth för att hitta personer i närheten och vidarebefordra krypterade meddelanden utan internet. Du väljer själv vem du parkopplar med.";
 "NSBluetoothPeripheralUsageDescription" = "Tillåt Bluetooth för att hitta personer i närheten och vidarebefordra krypterade meddelanden utan internet. Du väljer själv vem du parkopplar med.";
+"NSLocationUsageDescription" = "NoNetChat använder din plats bara när du väljer att lägga till en punkt i ett meddelande eller ett larm.";
+"NSLocationWhenInUseUsageDescription" = "NoNetChat använder din plats bara när du väljer att lägga till en punkt i ett meddelande eller ett larm.";

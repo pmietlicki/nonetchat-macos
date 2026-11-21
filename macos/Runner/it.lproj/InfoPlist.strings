@@ -4,3 +4,5 @@
 "NSCameraUsageDescription" = "Usare la fotocamera quando scegli di scattare una foto, scansionare un codice o avviare il monitoraggio video.";
 "NSBluetoothAlwaysUsageDescription" = "Consenti il Bluetooth per trovare persone vicine e inoltrare messaggi cifrati senza Internet. Scegli tu con chi associarti.";
 "NSBluetoothPeripheralUsageDescription" = "Consenti il Bluetooth per trovare persone vicine e inoltrare messaggi cifrati senza Internet. Scegli tu con chi associarti.";
+"NSLocationUsageDescription" = "NoNetChat accede alla posizione solo quando scegli di aggiungere un punto a un messaggio o a un avviso.";
+"NSLocationWhenInUseUsageDescription" = "NoNetChat accede alla posizione solo quando scegli di aggiungere un punto a un messaggio o a un avviso.";

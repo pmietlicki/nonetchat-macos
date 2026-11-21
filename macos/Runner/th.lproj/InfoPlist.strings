@@ -4,3 +4,5 @@
 "NSCameraUsageDescription" = "ใช้กล้องเมื่อคุณเลือกถ่ายภาพ สแกนรหัส หรือเริ่มเฝ้าดูด้วยวิดีโอ";
 "NSBluetoothAlwaysUsageDescription" = "อนุญาต Bluetooth เพื่อค้นหาคนใกล้เคียงและส่งต่อข้อความที่เข้ารหัสโดยไม่ใช้อินเทอร์เน็ต คุณเลือกได้ว่าจะเชื่อมต่อกับใคร";
 "NSBluetoothPeripheralUsageDescription" = "อนุญาต Bluetooth เพื่อค้นหาคนใกล้เคียงและส่งต่อข้อความที่เข้ารหัสโดยไม่ใช้อินเทอร์เน็ต คุณเลือกได้ว่าจะเชื่อมต่อกับใคร";
+"NSLocationUsageDescription" = "NoNetChat เข้าถึงตำแหน่งเฉพาะเมื่อคุณเลือกแนบจุดในข้อความหรือประกาศ";
+"NSLocationWhenInUseUsageDescription" = "NoNetChat เข้าถึงตำแหน่งเฉพาะเมื่อคุณเลือกแนบจุดในข้อความหรือประกาศ";

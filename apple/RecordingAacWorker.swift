@@ -103,7 +103,8 @@ final class RecordingAacWorker: @unchecked Sendable {
     }
     self.format = format
     let writer = AVAssetWriter(contentType: UTType(AVFileType.mp4.rawValue)!)
-    let sink = RecordingAacSegments(file: file, writer: writer, trace: segmentTrace)
+    let sink = RecordingAacSegments(file: file, writer: writer, trace: segmentTrace,
+      stop: { [weak self] in self?.stop() })
     self.writer = writer; segments = sink
     // WebKit MediaRecorderPrivateWriterAVFObjC::allTracksAdded uses CMAF for
     // one track; AppleHLS is reserved there for multiplexed audio + video.
@@ -221,36 +222,33 @@ final class RecordingAacWorker: @unchecked Sendable {
 
 private final class RecordingAacSegments: NSObject, AVAssetWriterDelegate, @unchecked Sendable {
   private let lock = NSLock()
-  private let file: RecordingOutputFile
+  private let output: RecordingSegmentOutput
   private weak var source: AVAssetWriter?
   private let trace: (@Sendable (Bool, Data) -> Void)?
-  private var sealed = false, failed = false, initialization = false, media = false
-  private var initializations = 0, mediaCount = 0
+  private var sealed = false
   init(file: RecordingOutputFile, writer: AVAssetWriter,
-       trace: (@Sendable (Bool, Data) -> Void)?) {
-    self.file = file; source = writer; self.trace = trace; super.init()
+       trace: (@Sendable (Bool, Data) -> Void)?, stop: @escaping @Sendable () -> Void) {
+    output = RecordingSegmentOutput(file: file, stop: stop)
+    source = writer; self.trace = trace; super.init()
   }
   // As in WebKit's WebAVAssetWriterDelegate, no unused report generation.
   func assetWriter(_ writer: AVAssetWriter, didOutputSegmentData data: Data,
                    segmentType: AVAssetSegmentType) {
     lock.lock(); defer { lock.unlock() }
     guard !sealed else { return } // No SDK callback may touch the retired FD.
-    guard writer === source else { failed = true; return }
+    guard writer === source else { output.reject(); return }
     trace?(segmentType == .initialization, data)
     switch segmentType {
     case .initialization:
-      if initializations < Int.max { initializations += 1 } else { failed = true; return }
-      if initialization || media { failed = true; return }; initialization = true
+      output.append(data, initialization: true)
     case .separable:
-      if mediaCount < Int.max { mediaCount += 1 } else { failed = true; return }
-      guard initialization else { failed = true; return }; media = true
-    @unknown default: failed = true; return
+      output.append(data, initialization: false)
+    @unknown default: output.reject()
     }
-    if !file.append(data) { failed = true }
   }
   func seal() -> (valid: Bool, initializations: Int, media: Int) {
     lock.lock(); defer { lock.unlock() }
     sealed = true
-    return (!failed && initialization && media, initializations, mediaCount)
+    return output.seal()
   }
 }

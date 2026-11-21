@@ -4,3 +4,5 @@
 "NSCameraUsageDescription" = "Použít kameru, když se rozhodnete pořídit fotografii, naskenovat kód nebo spustit sledování s videem.";
 "NSBluetoothAlwaysUsageDescription" = "Povolte Bluetooth, abyste našli lidi v okolí a předávali šifrované zprávy bez internetu. S kým se spárujete, volíte vy.";
 "NSBluetoothPeripheralUsageDescription" = "Povolte Bluetooth, abyste našli lidi v okolí a předávali šifrované zprávy bez internetu. S kým se spárujete, volíte vy.";
+"NSLocationUsageDescription" = "NoNetChat přistupuje k vaší poloze, jen když se rozhodnete přidat bod do zprávy nebo výstrahy.";
+"NSLocationWhenInUseUsageDescription" = "NoNetChat přistupuje k vaší poloze, jen když se rozhodnete přidat bod do zprávy nebo výstrahy.";

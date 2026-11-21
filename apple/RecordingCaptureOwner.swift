@@ -47,6 +47,7 @@ import Foundation
   }
   var finalized: Bool { released && !failed && closed?.valid == true }
   var bytes: Int { closed?.bytes ?? 0 }
+  var byteLimit: Bool { finalized && closed?.byteLimit == true }
 
   private var current: Bool {
     guard !retired, permitted(), !retired else { return false }
@@ -127,7 +128,11 @@ import Foundation
     // cannot be replaced by a later callback claiming an unrelated FD closed.
     guard closed == nil else { return }
     closed = proof
-    if stage != .stopping { failed = true }
+    // An automatic quota stop is a normal terminal event only for this active,
+    // still-authorized original capture. Early/foreign/invalid closes fail.
+    let normalLimit = stage == .active && proof.byteLimit && proof.valid && proof.released &&
+      current && source?.isCurrent == true && current
+    if stage != .stopping && !normalLimit { failed = true }
     if !proof.valid { failed = true }
     stop()
   }

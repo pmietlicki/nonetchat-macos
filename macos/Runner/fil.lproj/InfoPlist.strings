@@ -4,3 +4,5 @@
 "NSCameraUsageDescription" = "Gamitin ang camera kapag pinili mong kumuha ng larawan, mag-scan ng code o simulan ang pagsubaybay gamit ang video.";
 "NSBluetoothAlwaysUsageDescription" = "Payagan ang Bluetooth para makahanap ng mga tao sa malapit at maipasa ang mga naka-encrypt na mensahe nang walang Internet. Ikaw ang pipili kung sino ang ipapares.";
 "NSBluetoothPeripheralUsageDescription" = "Payagan ang Bluetooth para makahanap ng mga tao sa malapit at maipasa ang mga naka-encrypt na mensahe nang walang Internet. Ikaw ang pipili kung sino ang ipapares.";
+"NSLocationUsageDescription" = "Ina-access lang ng NoNetChat ang iyong lokasyon kapag pinili mong magdagdag ng punto sa mensahe o babala.";
+"NSLocationWhenInUseUsageDescription" = "Ina-access lang ng NoNetChat ang iyong lokasyon kapag pinili mong magdagdag ng punto sa mensahe o babala.";

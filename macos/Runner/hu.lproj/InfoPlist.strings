@@ -4,3 +4,5 @@
 "NSCameraUsageDescription" = "A kamera használata, amikor fényképezést, kódbeolvasást vagy videós felügyelet indítását választod.";
 "NSBluetoothAlwaysUsageDescription" = "Engedélyezd a Bluetooth-t, hogy megtaláld a közeli embereket, és internet nélkül továbbíts titkosított üzeneteket. Te döntöd el, kivel párosítasz.";
 "NSBluetoothPeripheralUsageDescription" = "Engedélyezd a Bluetooth-t, hogy megtaláld a közeli embereket, és internet nélkül továbbíts titkosított üzeneteket. Te döntöd el, kivel párosítasz.";
+"NSLocationUsageDescription" = "A NoNetChat csak akkor fér hozzá a helyadataidhoz, ha úgy döntesz, hogy egy pontot adsz egy üzenethez vagy riasztáshoz.";
+"NSLocationWhenInUseUsageDescription" = "A NoNetChat csak akkor fér hozzá a helyadataidhoz, ha úgy döntesz, hogy egy pontot adsz egy üzenethez vagy riasztáshoz.";

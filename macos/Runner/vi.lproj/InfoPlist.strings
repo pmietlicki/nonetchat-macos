@@ -4,3 +4,5 @@
 "NSCameraUsageDescription" = "Dùng camera khi bạn chọn chụp ảnh, quét mã hoặc bắt đầu giám sát bằng video.";
 "NSBluetoothAlwaysUsageDescription" = "Cho phép Bluetooth tìm người ở gần và chuyển tiếp tin nhắn mã hóa không cần Internet. Bạn chọn người muốn kết nối.";
 "NSBluetoothPeripheralUsageDescription" = "Cho phép Bluetooth tìm người ở gần và chuyển tiếp tin nhắn mã hóa không cần Internet. Bạn chọn người muốn kết nối.";
+"NSLocationUsageDescription" = "NoNetChat chỉ truy cập vị trí khi bạn chọn thêm một điểm vào tin nhắn hoặc cảnh báo.";
+"NSLocationWhenInUseUsageDescription" = "NoNetChat chỉ truy cập vị trí khi bạn chọn thêm một điểm vào tin nhắn hoặc cảnh báo.";

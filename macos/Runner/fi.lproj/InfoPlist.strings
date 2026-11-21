@@ -4,3 +4,5 @@
 "NSCameraUsageDescription" = "Käytä kameraa, kun päätät ottaa kuvan, skannata koodin tai aloittaa videovalvonnan.";
 "NSBluetoothAlwaysUsageDescription" = "Salli Bluetooth, jotta löydät lähellä olevia ihmisiä ja voit välittää salattuja viestejä ilman internetiä. Sinä päätät, kenen kanssa muodostat laiteparin.";
 "NSBluetoothPeripheralUsageDescription" = "Salli Bluetooth, jotta löydät lähellä olevia ihmisiä ja voit välittää salattuja viestejä ilman internetiä. Sinä päätät, kenen kanssa muodostat laiteparin.";
+"NSLocationUsageDescription" = "NoNetChat käyttää sijaintiasi vain, kun valitset lisätä pisteen viestiin tai hälytykseen.";
+"NSLocationWhenInUseUsageDescription" = "NoNetChat käyttää sijaintiasi vain, kun valitset lisätä pisteen viestiin tai hälytykseen.";

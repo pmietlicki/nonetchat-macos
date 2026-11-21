@@ -4,3 +4,5 @@
 "NSCameraUsageDescription" = "De camera gebruiken wanneer je kiest om een foto te maken, een code te scannen of videobewaking te starten.";
 "NSBluetoothAlwaysUsageDescription" = "Sta Bluetooth toe om mensen in de buurt te vinden en versleutelde berichten zonder internet door te sturen. Je kiest zelf met wie je koppelt.";
 "NSBluetoothPeripheralUsageDescription" = "Sta Bluetooth toe om mensen in de buurt te vinden en versleutelde berichten zonder internet door te sturen. Je kiest zelf met wie je koppelt.";
+"NSLocationUsageDescription" = "NoNetChat gebruikt je locatie alleen wanneer je een punt aan een bericht of waarschuwing wilt toevoegen.";
+"NSLocationWhenInUseUsageDescription" = "NoNetChat gebruikt je locatie alleen wanneer je een punt aan een bericht of waarschuwing wilt toevoegen.";

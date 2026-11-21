@@ -14,12 +14,12 @@ import FlutterMacOS
     let id: Int, token: String, file: String
     let session: String, account: String, recording: String
     var fields: [String: Any] {
-      ["version": 2, "recorderId": id, "nonetToken": token, "fileId": file,
+      ["version": 3, "recorderId": id, "nonetToken": token, "fileId": file,
        "localMediaToken": session, "localMediaAccount": account,
        "localRecordingToken": recording]
     }
     init?(_ args: [String: Any]) {
-      guard let version = Self.integer(args["version"]), version == 2,
+      guard let version = Self.integer(args["version"]), version == 3,
             let id = Self.integer(args["recorderId"]), id >= 0, id < Int(Int32.max),
             let token = args["nonetToken"] as? String, LocalMediaOwnership.validToken(token),
             let file = args["fileId"] as? String, LocalMediaOwnership.validToken(file),
@@ -106,10 +106,11 @@ import FlutterMacOS
 
   private func handle(_ call: FlutterMethodCall, reply: @escaping FlutterResult) {
     if call.method == "recordingCapabilities" {
-      // This API-v2 implementation includes owned output, callback-only file
+      // API-v3 requires the original reserved-byte budget before output; it includes
+      // owned output, callback-only file
       // inspection and the existing scoped Darwin preview. A probe does not
       // acquire a receiver, disclosure, file, permission or microphone.
-      reply(!closing && !detached && audio?.isRegistered == true ? 2 : 0); return
+      reply(!closing && !detached && audio?.isRegistered == true ? 3 : 0); return
     }
     if call.method == "nonetAppleInspectCapabilities" { reply(closing || detached ? 0 : 1); return }
     if call.method == "nonetAppleInspectAudio" || call.method == "nonetAppleInspectStop" {
@@ -134,7 +135,7 @@ import FlutterMacOS
         failure(reply, binding, released: true); return
       }
       let active = owner.refresh()
-      reply(proof(slot, extra: ["active": active, "failed": owner.failed || !active]))
+      reply(proof(slot, extra: ["active": active, "failed": owner.failed || (!active && !owner.finalized)]))
     }
   }
 
@@ -146,12 +147,15 @@ import FlutterMacOS
           let receiver = args["receiverId"] as? String,
           let track = args["trackId"] as? String,
           let path = args["path"] as? String else {
-      failure(reply, binding, released: true); return
+      failure(reply, binding, released: slot?.binding != binding || slot?.released == true); return
     }
     if let previous = slot {
       guard previous.binding != binding, previous.released else {
         failure(reply, binding, released: previous.binding != binding || previous.released); return
       }
+    }
+    guard let budget = RecordingOutputFile.budget(args["fileBudget"]) else {
+      failure(reply, binding, released: true); return
     }
     let selected = Slot(binding)
     slot = selected // Retirement is indexed before any asynchronous preparation.
@@ -172,6 +176,7 @@ import FlutterMacOS
             let root = try? support() else { return nil }
       let account = SHA256.hash(data: Data(binding.account.utf8)).map { String(format: "%02x", $0) }.joined()
       let file = RecordingOutputFile(support: root, path: path, accountHash: account, id: binding.file,
+        maximumBytes: budget,
         backup: { leaf in
           // Native storage already protected all three levels before reserving
           // its marker. Re-read uncached flags immediately before file creation.
@@ -207,7 +212,8 @@ import FlutterMacOS
 
   private func proof(_ selected: Slot, extra: [String: Any] = [:]) -> [String: Any] {
     selected.binding.fields.merging(["released": selected.released,
-      "finalized": selected.owner?.finalized ?? false, "bytes": selected.owner?.bytes ?? 0]) { _, new in new }
+      "finalized": selected.owner?.finalized ?? false, "bytes": selected.owner?.bytes ?? 0,
+      "completion": selected.owner?.byteLimit == true ? "byteLimit" : NSNull()]) { _, new in new }
       .merging(extra) { _, new in new }
   }
 

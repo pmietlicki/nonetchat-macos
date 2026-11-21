@@ -43,5 +43,11 @@
 	<string>Bluetooth connects nearby devices without Internet.</string>
 	<key>NSBluetoothPeripheralUsageDescription</key>
 	<string>Bluetooth connects nearby devices without Internet.</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.social-networking</string>
+	<key>NSLocationUsageDescription</key>
+	<string>NoNetChat accesses your location only when you choose to add a point to a message or an alert. It never tracks your location in the background.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>NoNetChat accesses your location only when you choose to add a point to a message or an alert. It never tracks your location in the background.</string>
 </dict>
 </plist>

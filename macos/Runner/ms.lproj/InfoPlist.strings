@@ -4,3 +4,5 @@
 "NSCameraUsageDescription" = "Gunakan kamera apabila anda memilih untuk mengambil foto, mengimbas kod atau memulakan pemantauan video.";
 "NSBluetoothAlwaysUsageDescription" = "Benarkan Bluetooth untuk mencari orang berdekatan dan menghantar mesej disulitkan tanpa Internet. Anda memilih orang untuk dipasangkan.";
 "NSBluetoothPeripheralUsageDescription" = "Benarkan Bluetooth untuk mencari orang berdekatan dan menghantar mesej disulitkan tanpa Internet. Anda memilih orang untuk dipasangkan.";
+"NSLocationUsageDescription" = "NoNetChat mengakses lokasi anda hanya apabila anda memilih untuk menambah titik pada mesej atau amaran.";
+"NSLocationWhenInUseUsageDescription" = "NoNetChat mengakses lokasi anda hanya apabila anda memilih untuk menambah titik pada mesej atau amaran.";

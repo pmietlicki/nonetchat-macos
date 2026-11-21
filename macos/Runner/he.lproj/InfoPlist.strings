@@ -4,3 +4,5 @@
 "NSCameraUsageDescription" = "שימוש במצלמה כשאתם בוחרים לצלם תמונה, לסרוק קוד או להתחיל השגחה בווידאו.";
 "NSBluetoothAlwaysUsageDescription" = "אפשר לתת הרשאת Bluetooth כדי למצוא אנשים בסביבה ולהעביר הודעות מוצפנות בלי אינטרנט. הבחירה עם מי להתחבר היא שלך.";
 "NSBluetoothPeripheralUsageDescription" = "אפשר לתת הרשאת Bluetooth כדי למצוא אנשים בסביבה ולהעביר הודעות מוצפנות בלי אינטרנט. הבחירה עם מי להתחבר היא שלך.";
+"NSLocationUsageDescription" = "NoNetChat ניגש למיקום רק כשבוחרים להוסיף נקודה להודעה או להתראה.";
+"NSLocationWhenInUseUsageDescription" = "NoNetChat ניגש למיקום רק כשבוחרים להוסיף נקודה להודעה או להתראה.";

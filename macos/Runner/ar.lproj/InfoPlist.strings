@@ -4,3 +4,5 @@
 "NSCameraUsageDescription" = "استخدام الكاميرا عندما تختار التقاط صورة أو مسح رمز أو بدء المراقبة بالفيديو.";
 "NSBluetoothAlwaysUsageDescription" = "اسمح بالبلوتوث لاكتشاف الأشخاص القريبين وترحيل الرسائل المشفرة دون إنترنت. أنت تختار من تقترن به.";
 "NSBluetoothPeripheralUsageDescription" = "اسمح بالبلوتوث لاكتشاف الأشخاص القريبين وترحيل الرسائل المشفرة دون إنترنت. أنت تختار من تقترن به.";
+"NSLocationUsageDescription" = "لا يصل NoNetChat إلى موقعك إلا عندما تختار إضافة نقطة إلى رسالة أو تنبيه.";
+"NSLocationWhenInUseUsageDescription" = "لا يصل NoNetChat إلى موقعك إلا عندما تختار إضافة نقطة إلى رسالة أو تنبيه.";

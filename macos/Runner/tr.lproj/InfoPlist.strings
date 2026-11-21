@@ -4,3 +4,5 @@
 "NSCameraUsageDescription" = "Fotoğraf çekmeyi, kod taramayı veya görüntülü izlemeyi başlatmayı seçtiğinizde kamerayı kullanın.";
 "NSBluetoothAlwaysUsageDescription" = "Yakındaki kişileri bulmak ve şifreli mesajları İnternet olmadan iletmek için Bluetooth izni verin. Kiminle eşleşeceğinizi siz seçersiniz.";
 "NSBluetoothPeripheralUsageDescription" = "Yakındaki kişileri bulmak ve şifreli mesajları İnternet olmadan iletmek için Bluetooth izni verin. Kiminle eşleşeceğinizi siz seçersiniz.";
+"NSLocationUsageDescription" = "NoNetChat konumunuza yalnızca bir mesaja veya uyarıya nokta eklemeyi seçtiğinizde erişir.";
+"NSLocationWhenInUseUsageDescription" = "NoNetChat konumunuza yalnızca bir mesaja veya uyarıya nokta eklemeyi seçtiğinizde erişir.";

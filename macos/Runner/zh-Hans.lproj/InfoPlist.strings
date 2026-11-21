@@ -4,3 +4,5 @@
 "NSCameraUsageDescription" = "仅在您选择拍照、扫描代码或开始视频看护时使用摄像头。";
 "NSBluetoothAlwaysUsageDescription" = "允许蓝牙以发现附近的人并在无互联网时中继加密消息。由您选择与谁配对。";
 "NSBluetoothPeripheralUsageDescription" = "允许蓝牙以发现附近的人并在无互联网时中继加密消息。由您选择与谁配对。";
+"NSLocationUsageDescription" = "只有当你选择向消息或警报添加地点时，NoNetChat才会访问你的位置。";
+"NSLocationWhenInUseUsageDescription" = "只有当你选择向消息或警报添加地点时，NoNetChat才会访问你的位置。";

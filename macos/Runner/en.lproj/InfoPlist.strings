@@ -4,3 +4,5 @@
 "NSCameraUsageDescription" = "Use the camera when you choose to take a photo, scan a code or start video monitoring.";
 "NSBluetoothAlwaysUsageDescription" = "Allow Bluetooth to discover nearby people and relay encrypted messages without Internet. You choose whom to pair with.";
 "NSBluetoothPeripheralUsageDescription" = "Allow Bluetooth to discover nearby people and relay encrypted messages without Internet. You choose whom to pair with.";
+"NSLocationUsageDescription" = "NoNetChat accesses your location only when you choose to add a point to a message or an alert.";
+"NSLocationWhenInUseUsageDescription" = "NoNetChat accesses your location only when you choose to add a point to a message or an alert.";

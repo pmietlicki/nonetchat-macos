@@ -4,3 +4,5 @@
 "NSCameraUsageDescription" = "写真の撮影、コードの読み取り、映像による見守りの開始を自分で選んだときにカメラを使用します。";
 "NSBluetoothAlwaysUsageDescription" = "近くの人の検出とインターネットなしでの暗号化メッセージの中継のためにBluetoothを許可してください。ペアリングする相手は自分で選べます。";
 "NSBluetoothPeripheralUsageDescription" = "近くの人の検出とインターネットなしでの暗号化メッセージの中継のためにBluetoothを許可してください。ペアリングする相手は自分で選べます。";
+"NSLocationUsageDescription" = "NoNetChatが位置情報にアクセスするのは、メッセージや警告に地点を追加すると選択した場合のみです。";
+"NSLocationWhenInUseUsageDescription" = "NoNetChatが位置情報にアクセスするのは、メッセージや警告に地点を追加すると選択した場合のみです。";

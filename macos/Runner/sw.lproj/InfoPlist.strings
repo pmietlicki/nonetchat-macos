@@ -4,3 +4,5 @@
 "NSCameraUsageDescription" = "Tumia kamera unapochagua kupiga picha, kuchanganua msimbo au kuanza uangalizi wa video.";
 "NSBluetoothAlwaysUsageDescription" = "Ruhusu Bluetooth kupata watu walio karibu na kupitisha ujumbe uliosimbwa bila Intaneti. Unachagua mtu wa kuoanisha naye.";
 "NSBluetoothPeripheralUsageDescription" = "Ruhusu Bluetooth kupata watu walio karibu na kupitisha ujumbe uliosimbwa bila Intaneti. Unachagua mtu wa kuoanisha naye.";
+"NSLocationUsageDescription" = "NoNetChat hutumia eneo lako tu unapochagua kuongeza sehemu kwenye ujumbe au tahadhari.";
+"NSLocationWhenInUseUsageDescription" = "NoNetChat hutumia eneo lako tu unapochagua kuongeza sehemu kwenye ujumbe au tahadhari.";

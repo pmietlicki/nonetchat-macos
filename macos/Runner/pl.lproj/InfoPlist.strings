@@ -4,3 +4,5 @@
 "NSCameraUsageDescription" = "Użycie kamery, gdy wybierzesz zrobienie zdjęcia, zeskanowanie kodu lub rozpoczęcie monitorowania z wideo.";
 "NSBluetoothAlwaysUsageDescription" = "Zezwól na Bluetooth, aby znajdować osoby w pobliżu i przekazywać zaszyfrowane wiadomości bez Internetu. Ty wybierasz, z kim się sparować.";
 "NSBluetoothPeripheralUsageDescription" = "Zezwól na Bluetooth, aby znajdować osoby w pobliżu i przekazywać zaszyfrowane wiadomości bez Internetu. Ty wybierasz, z kim się sparować.";
+"NSLocationUsageDescription" = "NoNetChat korzysta z lokalizacji tylko wtedy, gdy zdecydujesz się dodać punkt do wiadomości lub alarmu.";
+"NSLocationWhenInUseUsageDescription" = "NoNetChat korzysta z lokalizacji tylko wtedy, gdy zdecydujesz się dodać punkt do wiadomości lub alarmu.";

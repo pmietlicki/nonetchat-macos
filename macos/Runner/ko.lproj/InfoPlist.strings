@@ -4,3 +4,5 @@
 "NSCameraUsageDescription" = "사진 촬영, 코드 스캔 또는 영상 모니터링 시작을 직접 선택할 때 카메라를 사용합니다.";
 "NSBluetoothAlwaysUsageDescription" = "인터넷 없이 가까운 사람을 찾고 암호화된 메시지를 중계하려면 블루투스를 허용하세요. 연결할 상대는 직접 선택합니다.";
 "NSBluetoothPeripheralUsageDescription" = "인터넷 없이 가까운 사람을 찾고 암호화된 메시지를 중계하려면 블루투스를 허용하세요. 연결할 상대는 직접 선택합니다.";
+"NSLocationUsageDescription" = "NoNetChat은 메시지나 알림에 지점을 추가하기로 선택한 경우에만 위치에 접근합니다.";
+"NSLocationWhenInUseUsageDescription" = "NoNetChat은 메시지나 알림에 지점을 추가하기로 선택한 경우에만 위치에 접근합니다.";
